@@ -16,7 +16,7 @@ export class MapaComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.marcador = "Pureza del aire";
+    this.marcador = "Índice de pureza del aire";
     this.map = L.map("map").setView([51.505, -0.09], 11);
 
     var OSM_URL = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
